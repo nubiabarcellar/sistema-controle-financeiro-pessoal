@@ -6,4 +6,4 @@ class Transacao:
         self.data = data
 
     def resumo(self):
-        return (f'descricao', 'valor', 'categoria', 'data')
+        return (f"descricao + '|' + valor + '|' + categoria + '|' + data")
